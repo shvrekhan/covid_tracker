@@ -1,12 +1,11 @@
 import React from 'react'
-
-export const App
- = () => {
+import Covid from './components/covid'
+const App = () => {
   return (
     <>
-      <h2>COVID-19 CORONAVIRUS TRACKER</h2>
+      <Covid/>
     </>
   )
 }
 
-export default App
+export default App;
