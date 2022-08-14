@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import './covid.css' ;
 
 const Covid = () => {
    
@@ -20,8 +21,23 @@ const Covid = () => {
 
   return (
     <>
+    <section>
         <h1>Live</h1>
         <h2>COVID-19 CORONAVIRUS TRACKER</h2>
+
+        <ul>
+            <l1 className = "card">
+                <div className='card_main'>
+                    <div className="card_inner">
+                        <p className='card_name'><span>OUR</span>Country</p>
+                        <p className='card_total card_small'>INDIA</p>
+                    </div>
+
+                </div>
+
+            </l1>
+        </ul>
+        </section>
     </>
   )
 }
